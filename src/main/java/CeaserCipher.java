@@ -6,4 +6,9 @@ public class CeaserCipher {
         this.secretWord=secretWord;
         this.key=key;
     }
+    //get Methods
+    public String getSecretWord(){
+        return this.secretWord;
+    }
+    //check if key is in range
 }
