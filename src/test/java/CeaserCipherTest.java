@@ -45,5 +45,11 @@ class CeaserCipherTest {
         String expected = "wxy";
         assertEquals(expected, testCipher.CipherSecretWord("vwx", 1));
     }
+    @Test
+    public void caesar_Cypher_decipherText_string_char(){
+        CeaserCipher testCipher=new CeaserCipher("word",2);
+        String expected = "b";
+        assertEquals(expected, testCipher.decipherSecretWord("c", 1));
+    }
 
 }
