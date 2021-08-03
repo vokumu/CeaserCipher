@@ -8,4 +8,10 @@ class CeaserCipherTest {
         CeaserCipher testCipher=new CeaserCipher("word",2);
         assertEquals(true,testCipher instanceof CeaserCipher);
     }
+
+    @Test
+    public void newCipher_getSecretWord_word() {
+        CeaserCipher testCipher=new CeaserCipher("word",2);
+        assertEquals("word",testCipher.getSecretWord());
+    }
 }
