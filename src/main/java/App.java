@@ -8,5 +8,7 @@ public class App {
         System.out.println("Enter your cipher Key:");
         int intKey = scanner.nextInt();
 
+        //Cipher
+        CeaserCipher cipher = new CeaserCipher(stringSecretWord, intKey);
     }
 }
