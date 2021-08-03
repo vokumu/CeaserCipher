@@ -10,6 +10,13 @@ public class CeaserCipher {
     public int getKey(){
         return this.key;
     }
+    //set methods
+    public void setSecretWord(String secretWord) {
+        this.secretWord = secretWord;
+    }
+    public void setKey(int key) {
+        this.key = key;
+    }
     //cipher the string
     public String CipherSecretWord(String randomWord, int shiftValue){
         this.secretWord = randomWord;
