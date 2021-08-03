@@ -10,5 +10,6 @@ public class App {
 
         //Cipher
         CeaserCipher cipher = new CeaserCipher(stringSecretWord, intKey);
+        System.out.println(cipher.CipherSecretWord(stringSecretWord,intKey));
     }
 }
