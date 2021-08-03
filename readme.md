@@ -1,5 +1,5 @@
 # Caesar Cypher
-######By **Victoria Wasonga Okumu**
+###### By **Victoria Wasonga Okumu**
 ## Description
 The app will allow you to encrypt  a message based on the shift key you will have provided the app also goes further by allowing you decrypt messages coded based on a given shift key.
 ## Setup Instructions
@@ -16,7 +16,7 @@ kindly reach out my sending an email to victoriawasonga@gmail.com
 - Email <victoriawasonga@gmail.com>
 ## Copyright  & License
 ### Copyright
-Copyright (c) [2021] [Victoria Wasonga Okumu]
+Copyright (c) 2021 Victoria Wasonga Okumu
 
 ## License
 [MIT](LICENSE)
