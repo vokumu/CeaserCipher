@@ -5,6 +5,8 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your secret string:");
         String stringSecretWord = scanner.nextLine();
+        System.out.println("Enter your cipher Key:");
+        int intKey = scanner.nextInt();
 
     }
 }
