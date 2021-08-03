@@ -14,4 +14,10 @@ class CeaserCipherTest {
         CeaserCipher testCipher=new CeaserCipher("word",2);
         assertEquals("word",testCipher.getSecretWord());
     }
+
+    @Test
+    public void newCipher_getKey_2() {
+        CeaserCipher testCipher=new CeaserCipher("word",2);
+        assertEquals(2,testCipher.getKey());
+    }
 }
