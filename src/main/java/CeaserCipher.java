@@ -10,5 +10,8 @@ public class CeaserCipher {
     public String getSecretWord(){
         return this.secretWord;
     }
-    //check if key is in range
+    public int getKey(){
+        return this.key;
+    }
+
 }
