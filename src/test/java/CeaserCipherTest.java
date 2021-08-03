@@ -20,4 +20,12 @@ class CeaserCipherTest {
         CeaserCipher testCipher=new CeaserCipher("word",2);
         assertEquals(2,testCipher.getKey());
     }
+
+    @Test
+    public void testCipher_CipherSecretWord_stringShift0_int(){
+        CeaserCipher testCipher=new CeaserCipher("word",2);
+        String expected = "a";
+        assertEquals(expected, testCipher.CipherSecretWord("a", 0));
+    }
+
 }
