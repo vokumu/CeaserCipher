@@ -1,3 +1,4 @@
+
 public class CeaserCipher {
     private String secretWord;
     private int key;
